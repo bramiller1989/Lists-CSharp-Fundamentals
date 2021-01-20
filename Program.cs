@@ -29,7 +29,7 @@ namespace Lists
                 Console.WriteLine(number);
 
             numbers.Clear();
-            Console.WriteLine("Count: " + numbers.Count)
+            Console.WriteLine("Count: " + numbers.Count);
         }
     }
 }
