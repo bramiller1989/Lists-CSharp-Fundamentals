@@ -27,6 +27,10 @@ namespace Lists
             }
             foreach (var number in numbers)
                 Console.WriteLine(number);
+
+            numbers.Clear();
+            Console.WriteLine("Count: " + numbers.Count);
+
         }
     }
 }
